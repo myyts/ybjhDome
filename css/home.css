@@ -1,10 +1,11 @@
 .wrap {
-  border-bottom: 1px solid #628598; }
+  border-bottom: 1px solid #0a92cf; }
 
 .wrap_bot {
   width: 100%;
   height: 6.25rem;
-  background: #3b929b; }
+	border-top:1px solid #dfdfdf;
+	}
   .wrap_bot .container_bot {
     background: url("../image/bot_bg.jpg");
     height: 100%;
@@ -21,7 +22,7 @@
 .wrap_top {
   width: 100%;
   height: 5rem;
-  background: #31647f; }
+  background: linear-gradient(#0995e4, #0580c6); }
   .wrap_top .container_top {
     background: url("../image/bot_top.jpg");
     height: 100%;
@@ -44,7 +45,7 @@
 
 .map {
   height: 11.5rem;
-  background: url("../image/map.jpg");
+  background: url("../image/map.jpg") no-repeat;
   box-sizing: border-box;
   padding-top: 4.75rem; }
   .map .city {
