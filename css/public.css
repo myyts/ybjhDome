@@ -1,0 +1,223 @@
+body {
+  width: 100%; }
+
+.wrap {
+  width: 100%; }
+
+.home {
+  width: 1099px;
+  margin: 0 auto;
+  position: relative; }
+  .home .header {
+    width: 100%;
+    height: 210px;
+    background: url("../image/header.jpg");
+    position: relative;
+    z-index: 1; }
+  .home input {
+    position: absolute;
+    z-index: 2;
+    right: 2rem;
+    background: none;
+    border: none;
+    bottom: 6.125rem; }
+  .home .en {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    z-index: 9999;
+    right: 52px;
+    top: 52px; }
+  .home .logo {
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    z-index: 9999;
+    width: 41.625rem;
+    height: 5.3125rem; }
+    .home .logo a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+.bg_nav {
+  width: 100%;
+  height: 3.125rem;
+  background: #31647f;
+  margin-top: -3.1875rem; }
+  .bg_nav .bor_rig {
+    height: 100%;
+    width: 1102px;
+    border-right: 1px solid #fff;
+    margin: 0 auto;
+    overflow: hidden; }
+    .bg_nav .bor_rig .nav_href {
+      float: left;
+      width: 8.5rem;
+      height: 49px;
+      margin-left: 0.125rem; }
+      .bg_nav .bor_rig .nav_href a {
+        position: relative;
+        z-index: 10;
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .bg_nav .bor_rig .clear_mar {
+      margin-left: 0; }
+
+.bg_footer {
+  width: 100%;
+  height: 8.0625rem;
+  background: #31647f; }
+  .bg_footer .msg_footer {
+    background: url("../image/footer.jpg") no-repeat center;
+    height: 100%;
+    position: relative; }
+    .bg_footer .msg_footer .footer_ul {
+      width: 21rem;
+      height: 1.4375rem;
+      position: absolute;
+      z-index: 5;
+      top: 1.5625rem;
+      overflow: hidden; }
+      .bg_footer .msg_footer .footer_ul ul {
+        width: 120%;
+        height: 100%; }
+        .bg_footer .msg_footer .footer_ul ul li {
+          height: 100%;
+          float: left;
+          width: 3.875rem;
+          margin-right: 0.3125rem;
+          cursor: pointer; }
+          .bg_footer .msg_footer .footer_ul ul li a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+    .bg_footer .msg_footer .footer_box {
+      width: 0.9375rem;
+      height: 0.9375rem;
+      position: absolute;
+      bottom: 1.878rem;
+      right: 391px; }
+      .bg_footer .msg_footer .footer_box a {
+        width: 100%;
+        height: 100%;
+        display: block; }
+
+.xiaofeizhetousu {
+  width: 23.875rem;
+  height: 4.8125rem;
+  left: 42.375rem;
+  top: 12.75rem;
+  position: absolute; }
+
+.xinfang {
+  width: 23.875rem;
+  height: 4.8125rem;
+  left: 42.375rem;
+  top: 7rem;
+  position: absolute; }
+
+.jijianjianchajubao {
+  width: 23.875rem;
+  height: 4.8125rem;
+  left: 42.375rem;
+  top: 1.5625rem;
+  position: absolute; }
+
+.nav_href:hover {
+  position: relative;
+  z-index: 9999999; }
+
+.shouyeAct {
+  background: url("../image/shouye.jpg");
+  background-position-x: 0px;
+  position: relative;
+  z-index: 9999999; }
+
+.jigouAct {
+  background: url("../image/jigou.jpg");
+  background-position-x: -138px;
+  position: relative;
+  z-index: 9999999; }
+
+.xinwenAct {
+  background: url("../image/xinwen.jpg");
+  background-position-x: -276px;
+  position: relative;
+  z-index: 9999999; }
+
+.zhengwuAct {
+  background: url("../image/zhengwu.jpg");
+  background-position-x: -414px;
+  position: relative;
+  z-index: 9999999; }
+
+.fuwuAct {
+  background: url("../image/fuwu.jpg");
+  background-position-x: -552px;
+  position: relative;
+  z-index: 9999999; }
+
+.hudongAct {
+  background: url("../image/hudong.jpg");
+  background-position-x: -690px;
+  position: relative;
+  z-index: 9999999; }
+
+.shujuAct {
+  background: url("../image/shuju.jpg");
+  background-position-x: -828px;
+  position: relative;
+  z-index: 9999999; }
+
+.zhuantiAct {
+  background: url("../image/zhuanti.jpg");
+  background-position-x: -964px;
+  position: relative;
+  z-index: 9999999; }
+
+.shouye:hover {
+  background: url("../image/shouye.jpg");
+  background-position-x: 0px;
+  position: relative;
+  z-index: 9999999; }
+
+.jigou:hover {
+  background: url("../image/jigou.jpg");
+  background-position-x: -138px; }
+
+.xinwen:hover {
+  background: url("../image/xinwen.jpg");
+  background-position-x: -276px; }
+
+.zhengwu:hover {
+  background: url("../image/zhengwu.jpg");
+  background-position-x: -414px; }
+
+.fuwu:hover {
+  background: url("../image/fuwu.jpg");
+  background-position-x: -552px; }
+
+.hudong:hover {
+  background: url("../image/hudong.jpg");
+  background-position-x: -690px; }
+
+.shuju:hover {
+  background: url("../image/shuju.jpg");
+  background-position-x: -828px; }
+
+.zhuanti:hover {
+  background: url("../image/zhuanti.jpg");
+  background-position-x: -964px; }
+
+.fangda {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  top: 92px;
+  z-index: 5555555;
+  cursor: pointer; }
+
+/*# sourceMappingURL=public.css.map */
