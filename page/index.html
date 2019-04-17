@@ -17,14 +17,17 @@
 			padding-left: 10px;
 		}
 		.COLOR{
-			color: #3F919E !important;
+			color: #0283cc !important;
+		}
+		.active{
+			color: #0283cc !important;
 		}
 		.rightNavMenu , .rightNavMenus , .rightNavMenusQ{
 			color: #000000 ;
 			font-size: 1rem;
 		}
 		{.rightNavMenu , .rightNavMenus , .rightNavMenusQ}:hover{
-			color: #3F919E !important;
+			color: #0283cc !important;
 		}
 		.book {
 			width: 17px;
@@ -36,6 +39,9 @@
 			height: 39px;
 			position: absolute;
 			top: 0.8rem;
+		}
+		.fontColor{
+			margin-right: 0.625rem;
 		}
 	</style>
 	<body>
@@ -146,20 +152,12 @@
 							<p class="NAVs">
 								<img class="book" src="../image/book_03.jpg" alt="" />
 								<span>
-									<a class="rightNavMenu shizheng" href="#"><strong>时政要闻</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-									<a class="rightNavMenu" href="#"><strong>国务院信息</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-									<a class="rightNavMenu  jianguan COLOR" href="news.html?name=jianguandongtai"><strong>监管动态</strong></a>
+									<a class="rightNavMenu shizheng" href="news.html?name=jianguandongtai"><strong class="active">监管动态</strong></a>
 								</span>
 							</p>
 						</div>
 						<img class="line" src="../image/line_03.jpg" alt="" />
 						<div class="boxImages">
-							<div class="changeNav">
-								<img src="../image/shizheng.jpg" alt="" />
-							</div>
-							<div class="changeNav">
-								<img src="../image/guowuyuan.jpg" alt="" />
-							</div>
 							<div class="changeNav changeNavAcitve jianguan1">
 								<img src="../image/jianguan.jpg" alt="" />
 							</div>
@@ -179,15 +177,19 @@
 						<div class="NoticePBox">
 							<p class="NoticeP" style="cursor: pointer;">
 							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-23</span>
+							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
 						</p>
 						<p class="NoticeP" style="cursor: pointer;">
 							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-24</span>
+							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
 						</p>
 						<p class="NoticeP" style="cursor: pointer;">
 							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-25</span>
+							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
 						</p>
 						<p class="NoticeP" style="cursor: pointer;">
 							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-26</span>
+							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
 						</p>
 						</div>
 						
@@ -203,6 +205,24 @@
 				<!--三个选项-->
 				<div class="menusBox">
 					<div class="menus">
+						<div class="rightNav">
+							<p class="NAVs">
+								<img class="book" src="../image/books_07.jpg" alt="" style="width: 1.0625rem;height: 1.1875rem;"/>
+								<span>
+									<a class="" style="color: #0c86cd;padding-left: 10px; font-size:16px;" href="special.html?name=xiaofeibaohu"><strong>国务院信息</strong></a>
+								</span>
+							</p>
+						</div>
+						<img class="line" src="../image/line_03.jpg" alt="" />
+						<div class="boxImage">
+							<div class="changeNavs changeNavAcitve">
+								<div class="bor_img"></div>
+								<img src="../image/xiaofeizhe1.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+					
+					<div class="menus menMarLeft">
 						<div class="rightNav">
 							<p class="NAVs">
 								<img class="book" src="../image/books_03.jpg" alt="" />
@@ -247,24 +267,6 @@
 							</div>
 						</div>
 					</div>
-					
-					<div class="menus menMarLeft">
-						<div class="rightNav">
-							<p class="NAVs">
-								<img class="book" src="../image/books_07.jpg" alt="" style="width: 1.0625rem;height: 1.1875rem;"/>
-								<span>
-									<a class="" style="color: #3F919E;padding-left: 10px; font-size:16px;" href="special.html?name=xiaofeibaohu"><strong>消费者权益保护</strong></a>
-								</span>
-							</p>
-						</div>
-						<img class="line" src="../image/line_03.jpg" alt="" />
-						<div class="boxImage">
-							<div class="changeNavs changeNavAcitve">
-								<div class="bor_img"></div>
-								<img src="../image/xiaofeizhe1.jpg" alt="" />
-							</div>
-						</div>
-					</div>
 					<div style="clear: both;"></div>
 				</div>
 				
@@ -285,7 +287,7 @@
 			<div class="wrap_bot">
 				<div class="container_bot maxmain">
 					<div class="fl">
-						<a href="http://jcjb.cbrc.gov.cn/" target="_blank"></a>
+						<a href="hudong.html?name=zhengwuzixun"></a>
 					</div>
 					<div class="fl">
 						<a href="hudong.html?name=xinfang"></a>
@@ -294,7 +296,7 @@
 						<a href="hudong.html?name=xiaofeizhetousu"></a>
 					</div>
 					<div class="fl">
-						<a href="hudong.html?name=zhengwuzixun"></a>
+						<a href="http://jcjb.cbrc.gov.cn/" target="_blank"></a>
 					</div>
 				</div>
 			</div>
@@ -323,11 +325,11 @@
 			<div class="msg_footer maxmain">
 				<div class="footer_ul">
 					<ul>
-						<li>
-							<a href="map.html"></a>
+						<li style="margin-left: 0.9375rem;">
+							<a href="falu.html"></a>
 						</li>
 						<li>
-							<a href="falu.html"></a>
+							<a href="map.html"></a>
 						</li>
 						<li>
 							<a href="jigou.html?name=lianxifangshi" target="_blank"></a>
