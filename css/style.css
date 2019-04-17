@@ -332,3 +332,7 @@ p {
     width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
+
+.back_image{
+	background: url("../image/back_img.jpg") no-repeat 100% 100%;
+}

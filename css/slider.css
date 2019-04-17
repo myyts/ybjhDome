@@ -1,8 +1,7 @@
 .slider {
   overflow: hidden;
   background: #fff;
-  margin-bottom: 1.25rem;
-  margin-top: 1.25rem; }
+  margin-bottom: 1.25rem;}
   .slider .cont_left {
     width: 14.9375rem;
     height: 49.3125rem;
@@ -46,7 +45,7 @@
           top: -60px;
           z-index: 10000; }
         .slider .cont_left ul li .hov:hover, .slider .cont_left ul > a > div .hov:hover {
-          color: #31647f;
+          color: #1d82d3;
           cursor: pointer;
           font-weight: 900; }
       .slider .cont_left ul .open {
@@ -58,7 +57,7 @@
           .slider .cont_left ul .open .new_cub a {
             display: block; }
       .slider .cont_left ul .active .pain {
-        color: #31647f;
+        color: #1d82d3;
         cursor: pointer;
         font-weight: 900; }
       .slider .cont_left ul .active .sanjiao {
