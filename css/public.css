@@ -10,7 +10,7 @@ body {
   position: relative; }
   .home .header {
     width: 100%;
-    height: 210px;
+    height: 208px;
     background: url("../image/header.jpg") no-repeat;
 		background-size:100% 100%;
     position: relative;
@@ -49,13 +49,42 @@ body {
   .bg_nav .bor_rig {
     height: 100%;
     width: 1102px;
+<<<<<<< HEAD
+=======
+    /*border-right: 1px solid #fff;*/
+>>>>>>> dev
     margin: 0 auto;
     overflow: hidden; }
     .bg_nav .bor_rig .nav_href {
       float: left;
-      width: 8.5rem;
+      width: 6.4rem;
       height: 49px;
+<<<<<<< HEAD
       margin-right: 5px }
+=======
+      margin-left: 0.125rem; }
+      .bg_nav .bor_rig .jigou {
+      margin: 0;
+      width: 8.9rem; }
+      .bg_nav .bor_rig .xinwen {
+      margin: 0;
+      width: 8.8rem; }
+      .bg_nav .bor_rig .zhengwu {
+      margin: 0;
+      width: 8.9rem; }
+      .bg_nav .bor_rig .fuwu {
+      margin: 0;
+      width: 8.9rem; }
+      .bg_nav .bor_rig .hudong {
+      margin: 0;
+      width: 8.9rem; }
+      .bg_nav .bor_rig .shuju {
+      margin: 0;
+      width: 8.9rem; }
+      .bg_nav .bor_rig .zhuanti {
+      margin: 0;
+      width: 8.9rem; }
+>>>>>>> dev
       .bg_nav .bor_rig .nav_href a {
         position: relative;
         z-index: 10;
@@ -130,12 +159,16 @@ body {
   z-index: 9999999; }
 
 .shouyeAct {
+<<<<<<< HEAD
+=======
+  background: url("../image/activenav.jpg");
+>>>>>>> dev
   background-position-x: 0px;
   position: relative;
   z-index: 9999999; }
 
 .jigouAct {
-  background: url("../image/jigou.jpg");
+  background: url("../image/activenav.jpg");
   background-position-x: -138px;
   position: relative;
   z-index: 9999999; }
@@ -183,32 +216,32 @@ body {
   z-index: 9999999; }
 
 .jigou:hover {
-  background: url("../image/jigou.jpg");
-  background-position-x: -138px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -101px; }
 
 .xinwen:hover {
-  background: url("../image/xinwen.jpg");
-  background-position-x: -276px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -245px; }
 
 .zhengwu:hover {
-  background: url("../image/zhengwu.jpg");
-  background-position-x: -414px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -387px; }
 
 .fuwu:hover {
-  background: url("../image/fuwu.jpg");
-  background-position-x: -552px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -530px; }
 
 .hudong:hover {
-  background: url("../image/hudong.jpg");
-  background-position-x: -690px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -673px; }
 
 .shuju:hover {
-  background: url("../image/shuju.jpg");
-  background-position-x: -828px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -819px; }
 
 .zhuanti:hover {
-  background: url("../image/zhuanti.jpg");
-  background-position-x: -964px; }
+  background: url("../image/activenav.jpg");
+  background-position-x: -960px; }
 
 .fangda {
   position: absolute;
