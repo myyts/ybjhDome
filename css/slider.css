@@ -42,7 +42,7 @@
           height: 11rem;
           position: absolute;
           left: 15.625rem;
-          top: -60px;
+          top: -100px;
           z-index: 10000; }
         .slider .cont_left ul li .hov:hover, .slider .cont_left ul > a > div .hov:hover {
           color: #1d82d3;
