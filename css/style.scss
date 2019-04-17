@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+body {
+	background: #f5f5f5 !important;
+	color: #666;
+	font-size: 14px;
+	font-family:'微软雅黑', Verdana, Arial, Helvetica, sans-serif;
+}
+td, th, caption {
+	font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+a {
+	color: #555;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #e60012;
+}
+img {
+	border: none;
+}
+ol, ul, li {
+	list-style: none;
+}
+input, textarea, select, button {
+	font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+table {
+	border-collapse: collapse;
+}
+html {
+	overflow-y: scroll;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+*zoom:1;
+}
+.yahei{font-family: "Microsoft Yahei";}
+.block{display:block;}
+.clear{clear:both;}
+.mc{margin-left:auto;margin-right:auto;}
+.fl{float:left;}
+.fr{float:right;}
+a:hover{text-decoration:none;}
+
+a{text-decoration:none; transition:all .3s ease;}
+em, var{font-style:normal}
+img, a img{padding:0; margin:0; border:none;}
+input, textarea, button{outline:none; margin:0}
+body{background:#fff;min-width:1300px;-webkit-text-size-adjust: none;}
+body, input, textarea, button, select{font-size:14px;line-height:1.5;font-family:-apple-system, BlinkMacSystem,"Microsoft Yahei",sans-serif,"Hiragino Sans GB", Helvetica}
+.clearfix:after, .fix:after{content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix, .fix{zoom:1}
+a{color:#404145; text-decoration:none; transition:all .3s ease;}
+a:hover, a:active{color:#bf1920;}
+a:focus{outline:none; -moz-outline:none}
+a{outline:none; blr:expression(this.onFocus=this.blur());}
+i, s, em, u{font-style:normal; text-decoration:none;}
+input,textarea{color:#333;}
+input:focus, textarea:focus{outline:none;}
+.clear{clear:both; display:block; font-size:0; line-height:0; height:0;}
+.clearf:after{content:""; display:table; clear:both; }
+.fl{float:left}
+.fr{float:right}
+.tl{text-align:left}
+.tr{text-align:right}
+.h30{height:30px}
+.bg_fff{background:#fff;}
+/* 文字属性 */
+.f12, .f12 a{font-size:12px}
+.f_red, .f_red a{color:#e94547}
+.f_red:hover, .f_red a:hover, .f_red:active, .f_red a:active{color:#2bbd5b}
+.f_green, .f_green a{color:#2bbd5b}
+.f_green:hover, .f_green a:hover, .f_green:active, .f_green a:active{color:#e94547}
+.w{margin:0 auto; padding:40px 0; position:relative; width:1170px; text-align:center}
+.w:after{clear:both; content:"."; display:block; height:0; clear:both; visibility:hidden}
+.container-page{margin: 0 auto; position: relative; width: 1170px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt45{margin-top:45px;}
+.ml30{margin-left:30px;}
+.ml20{margin-left:20px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.mb15{margin-bottom:15px;}
+.pt20{padding-top:20px;}
+.w585{width:585px;}
+.w555{width:555px;}
+.w1140{width:1140px;}
+.w1200{width:1200px;}
+.w1180{width:1180px;}
+.w1170{width:1170px;margin-left:auto;margin-right:auto;}
+.h600{
+	height: 600px;
+}
+.w300{width: 300px;}
+.w235{width: 235px;}
+.w385{width: 385px;}
+.w395{width: 395px;}
+.w400{width:400px;}
+.w433{width:433px;}
+.ml45{margin-left: 45px;}
+
+.clearfix:after{
+	display: block;
+	content:"";
+	height: 0;
+	clear: both;
+}
+.headimg{
+	margin-top: 45px;
+	font-size: 0;
+	width: 100%;
+    height: 345px;
+    overflow: hidden;
+    position: relative;
+}
+.headimg img{
+	position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+}
+p{
+	color: #333;
+}
+.img{
+	font-size: 0;
+}
+.navtjxx{
+	position: absolute;
+    width: 150px;
+    height: 30px;
+    right: 140px;
+    top: 15px;
+}
+.navhd,.navfw,.navzw,.navxw,.navjg{
+	position: absolute;
+    width: 92px;
+	height: 30px;
+	right: 140px;
+	top: 15px;
+}
+.navhd1{
+	right: 470px;
+}
+.maxmain{
+	width: 1099px;
+	margin: 0 auto;
+}
+.baifen{
+	width: 100%;
+	img{
+		width: 100%
+	}
+}
