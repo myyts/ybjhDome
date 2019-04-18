@@ -8,11 +8,13 @@ $('#slider li').click(function(){
 			$("#changeJigou").attr('src',"../image/newnew2.jpg");
 			return;break;
 		case "lingdaohuodongjijianghua":$("#changeImg").attr('src',"../image/lingdaohuodongjijianghua.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');
+		$("#changeJigou").attr('src',"../image/newnew3.jpg");
 			return;break;
 		case "xinwenfayanren":$("#changeImg").attr('src',"../image/xinwenfayanren.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');
 		$("#changeJigou").attr('src',"../image/newnew5.jpg");
 			return;break;
 		case "xinwenfabujifangtan":$("#changeImg").attr('src',"../image/xinwenfabujifangtan.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');$(".fabujifangtan").css("display","block")
+		$("#changeJigou").attr('src',"../image/newnew4.jpg");
 			return;break;
 		default:
 			break;
