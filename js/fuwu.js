@@ -1,9 +1,13 @@
 $('#slider li').click(function(){
 	$(this).addClass('active').siblings().removeClass('active');
 	switch($(this).attr("data-id")){
-		case "xingzhengxuke":$("#changeImg").attr('src',"../image/fuwu1.jpg");
+		case "xingzhengxuke":
+            $("#changeImg").attr('src',"../image/fuwu1.jpg");
+            $("#changeJigou").attr('src',"../image/xingzhengbiao.jpg");
 			break;
-		case "chaxunfuwu":$("#changeImg").attr('src',"../image/fuwu2.jpg");
+		case "chaxunfuwu":
+            $("#changeImg").attr('src',"../image/fuwu2.jpg");
+            $("#changeJigou").attr('src',"../image/chaxunx.jpg");
 			break;
 		default:
 			break;
@@ -19,9 +23,13 @@ else if(name === 'gongkaiguiding'){
     $("#changeImage").attr('src',"../image/gongkaiguiding.png");
 }
 switch(name){
-		case "xingzhengxuke":$("#changeImg").attr('src',"../image/fuwu1.jpg");addActive();
+		case "xingzhengxuke":
+            $("#changeImg").attr('src',"../image/fuwu1.jpg");addActive();
+            $("#changeJigou").attr('src',"../image/xingzhengbiao.jpg");
 			break;
-		case "chaxunfuwu":$("#changeImg").attr('src',"../image/fuwu2.jpg");addActive();
+		case "chaxunfuwu":
+            $("#changeImg").attr('src',"../image/fuwu2.jpg");addActive();
+            $("#changeJigou").attr('src',"../image/chaxunx.jpg");
 			break;
    		 case "renshenxian":$("#changeImg").attr('src',"../image/renshenxian.jpg");
        		 break;
