@@ -2,12 +2,15 @@ $('#slider li').click(function(){
 	$(this).addClass('active').siblings().removeClass('active');
 	switch($(this).attr("data-id")){
 		case "jianguandongtai":$("#changeImg").attr('src',"../image/jianuandongtai.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');
+		$("#changeJigou").attr('src',"../image/xinwenxinwen.jpg");
 			return;break;
 		case "zhengcejiedu":$("#changeImg").attr('src',"../image/zhengcejiedu.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');
+			$("#changeJigou").attr('src',"../image/newnew2.jpg");
 			return;break;
 		case "lingdaohuodongjijianghua":$("#changeImg").attr('src',"../image/lingdaohuodongjijianghua.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');
 			return;break;
 		case "xinwenfayanren":$("#changeImg").attr('src',"../image/xinwenfayanren.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');
+		$("#changeJigou").attr('src',"../image/newnew5.jpg");
 			return;break;
 		case "xinwenfabujifangtan":$("#changeImg").attr('src',"../image/xinwenfabujifangtan.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');$(".fabujifangtan").css("display","block")
 			return;break;
@@ -54,6 +57,7 @@ else if(name === "fabujifangtan"){
 	$(".cont_left").css("display","none");
 	$('.active').removeClass('active');
 	$("#changeImg").attr('src',"../image/fabujifangtan.jpg");
+	$("#changeJigou").attr('src',"../image/newnew6.jpg");
 }
 switch(name){
 		case "jianguandongtai":$("#changeImg").attr('src',"../image/jianuandongtai.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');addActive();

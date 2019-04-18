@@ -6,12 +6,14 @@ $("._zhengwuzixun").click(function(){
 	$(this).addClass('open').css("height","9rem").siblings().removeClass('smallFont');
 	$('._zixun').addClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun1.jpg");
+	$("#changeJigou").attr('src',"../image/hudhud1.jpg");
 })
 $("._zhengjidiaocha").click(function(){
 	$("._zhengwuzixun").css("height","3.0625rem")
 	$(this).addClass('open').siblings().removeClass('smallFont');
 	$('._yijian').addClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun5.jpg");
+	$("#changeJigou").attr('src',"../image/hudhud4.jpg");
 })
 $("._yijian").click(function(e){
 	e.stopPropagation();
@@ -26,6 +28,7 @@ $("._jieguo").click(function(e){
 	$('._jieguo').addClass('smallFont');
 	$('._yijian').removeClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun6.jpg");
+	$("#changeJigou").attr('src',"../image/hudhud5.jpg");
 })
 
 
@@ -33,18 +36,24 @@ $("._zixun").click(function(e){
 	e.stopPropagation();
 	$('._zixun').addClass('smallFont').siblings().removeClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun1.jpg");
+	
+	$("#changeJigou").attr('src',"../image/hudhud1.jpg");
 })
 
 $("._liuyan").click(function(e){
 	e.stopPropagation();
 	$('._liuyan').addClass('smallFont').siblings().removeClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun3.jpg");
+	
+	$("#changeJigou").attr('src',"../image/hudhud2.jpg");
 })
 
 $("._tongji").click(function(e){
 	e.stopPropagation();
 	$('._tongji').addClass('smallFont').siblings().removeClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun4.jpg");
+	
+	$("#changeJigou").attr('src',"../image/hudhud3.jpg");
 })
 
 $("._xiaofeizhetousu").click(function(e){
@@ -72,6 +81,7 @@ if(name === 'zhengqiuyijian'){
 	$('._yijian').addClass('smallFont');
 	$('._jieguo').removeClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun5.jpg");
+	$("#changeJigou").attr('src',"../image/hudhud4.jpg");
 	$("._zhengjidiaocha").addClass('active open').siblings().removeClass('active')
 }
 else if(name === 'zhengjijieguo'){
@@ -79,12 +89,16 @@ else if(name === 'zhengjijieguo'){
 	$('._jieguo').addClass('smallFont');
 	$('._yijian').removeClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun6.jpg");
+	
+	$("#changeJigou").attr('src',"../image/hudhud5.jpg");
 	$("._zhengjidiaocha").addClass('active open').siblings().removeClass('active')
 }
 else if(name === 'zhengwuzixun'){
 	$('._zhengwuzixun').addClass('open').css("height","9rem");
 	$('._zixun').addClass('smallFont');
 	$("#changeImg").attr('src',"../image/zixun1.jpg");
+	
+	$("#changeJigou").attr('src',"../image/hudhud1.jpg");
 }
 else if(name === 'jijianjianchajubao'){
 	$(".active").removeClass('active');
