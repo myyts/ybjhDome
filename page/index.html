@@ -43,6 +43,16 @@
 		.fontColor{
 			margin-right: 0.625rem;
 		}
+		.NoticeNew{
+			width: 929px;
+			overflow: hidden;
+		}
+		.NoticePBox{
+			width: 4000px;
+		}
+		.NoticeP{
+			display: inline-block;
+		}
 	</style>
 	<body>
 		<!-- nav -->
@@ -178,23 +188,23 @@
 					<div class="NoticeNew">
 						<div class="NoticePBox">
 							<p class="NoticeP" style="cursor: pointer;">
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-23</span>
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
-						</p>
-						<p class="NoticeP" style="cursor: pointer;">
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-24</span>
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
-						</p>
-						<p class="NoticeP" style="cursor: pointer;">
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-25</span>
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
-						</p>
-						<p class="NoticeP" style="cursor: pointer;">
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-26</span>
-							中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
-						</p>
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-23</span>
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
+							</p>
+							<p class="NoticeP" style="cursor: pointer;">
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-24</span>
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
+							</p>
+							<p class="NoticeP" style="cursor: pointer;">
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-25</span>
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
+							</p>
+							<p class="NoticeP" style="cursor: pointer;">
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告<span class="fontColor">2018-10-26</span>
+								中国银保监会人事部关于2019年度公务员录用考试有关事项的公告
+							</p>
+							<div style="clear: both;"></div>
 						</div>
-						
 					</div>
 					<!--<img src="../image/laba_03.jpg" alt="" />
 					<p class="NoticeP">
@@ -400,13 +410,13 @@
 			
    			setInterval(function(){
    				$('.NoticePBox').animate({
-   		        	marginTop: "-22px"
-   				},2000,
+   		        	marginLeft: "-929px"
+   				},3000,
    			    	function() {
-   				        $(this).css({marginTop: "0px"}).find(".NoticeP:first").appendTo(this);
+   				        $(this).css({marginLeft: "0px"}).find(".NoticeP:first").appendTo(this);
    					}
    			   );
-   			}, 3000)
+   			}, 8000)
 			
 		</script>
 	</body>
