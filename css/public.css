@@ -159,48 +159,48 @@ body {
 
 .jigouAct {
   background: url("../image/activenav.jpg");
-  background-position-x: -138px;
+  background-position-x: -100px;
   position: relative;
   z-index: 9999999; }
 
 .xinwenAct {
-  background: url("../image/xinwen.jpg");
-  background-position-x: -276px;
+  background: url("../image/activenav.jpg");
+  background-position-x: -245px;
   position: relative;
   z-index: 9999999; }
 
 .zhengwuAct {
-  background: url("../image/zhengwu.jpg");
-  background-position-x: -414px;
+  background: url("../image/activenav.jpg");
+  background-position-x: -387px;
   position: relative;
   z-index: 9999999; }
 
 .fuwuAct {
-  background: url("../image/fuwu.jpg");
-  background-position-x: -552px;
+  background: url("../image/activenav.jpg");
+  background-position-x: -530px;
   position: relative;
   z-index: 9999999; }
 
 .hudongAct {
-  background: url("../image/hudong.jpg");
-  background-position-x: -690px;
+  background: url("../image/activenav.jpg");
+  background-position-x: -673px;
   position: relative;
   z-index: 9999999; }
 
 .shujuAct {
-  background: url("../image/shuju.jpg");
-  background-position-x: -828px;
+  background: url("../image/activenav.jpg");
+  background-position-x: -819px;
   position: relative;
   z-index: 9999999; }
 
 .zhuantiAct {
-  background: url("../image/zhuanti.jpg");
-  background-position-x: -964px;
+  background: url("../image/activenav.jpg");
+  background-position-x: -960px;
   position: relative;
   z-index: 9999999; }
 
 .shouye:hover {
-  background: url("../image/shouye.jpg");
+  background: url("../image/activenav.jpg");
   background-position-x: 0px;
   position: relative;
   z-index: 9999999; }
