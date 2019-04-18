@@ -324,7 +324,7 @@ p {
 
 .maxmain {
   width: 1099px;
-  margin: 0 auto; }
+  margin: 0 auto !important; }
 
 .baifen {
   width: 100%; }
@@ -335,4 +335,19 @@ p {
 
 .back_image{
 	background: url("../image/back_img.jpg") no-repeat 100% 100%;
+}
+.footer_ul ul{
+	display: block;
+	position: relative;
+}
+.footer_ul ul li:nth-child(1){
+	position: relative;
+	left: 137px;
+}
+.footer_ul ul li:nth-child(3){
+	margin-left: 69px;
+}
+.footer_ul ul li:nth-child(4){
+	position: absolute;
+	left: 0;
 }
