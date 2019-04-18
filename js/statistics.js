@@ -1,9 +1,13 @@
 $('#slider li').click(function(){
 	$(this).addClass('active').siblings().removeClass('active');
 	switch($(this).attr("data-id")){
-		case "tongjixinxi":$("#changeImg").attr('src',"../image/statistics_03.jpg");
+		case "tongjixinxi":
+			$("#changeImg").attr('src',"../image/statistics_03.jpg");
+			$("#changeJigou").attr('src',"../image/tonjitit_03.jpg");
 			break;
-		case "shujutubiao":$("#changeImg").attr('src',"../image/shujutubiao.jpg");
+		case "shujutubiao":
+			$("#changeImg").attr('src',"../image/shujutubiao.jpg");
+			$("#changeJigou").attr('src',"../image/shujutit.jpg");
 			break;
 		default:
 			break;
@@ -40,9 +44,13 @@ else if(name === 'tongjixinxi'){
 	$("#changeImg").attr('src',"../image/tongjixinxi.jpg");
 }
 switch(name){
-		case "shujutubiao":$("#changeImg").attr('src',"../image/shujutubiao.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');addActive();
+		case "shujutubiao":
+			$("#changeImg").attr('src',"../image/shujutubiao.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');addActive();
+			$("#changeJigou").attr('src',"../image/shujutit.jpg");
 			break;
-		case "tongjixinxi":$("#changeImg").attr('src',"../image/statistics_03.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');addActive();
+		case "tongjixinxi":
+			$("#changeImg").attr('src',"../image/statistics_03.jpg"); $(".ab").css("display","none");$(".open").removeClass('open');addActive();
+			$("#changeJigou").attr('src',"../image/tonjitit_03.jpg");
 			break;
 		case "lingdaohuodongjijianghua":$("#changeImg").attr('src',"../image/neishejigou.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block");$(".open").removeClass('open');
 			break;
