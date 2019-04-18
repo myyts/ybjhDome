@@ -1,15 +1,21 @@
 $('#slider li').click(function(){
 	$(this).addClass('active').siblings().removeClass('active');
 	switch($(this).attr("data-id")){
-		case "zhengcefagui":$("#changeImage").attr('src',"../image/zhengcefagui.jpg"); $(".ab").css("display","none");
+		case "zhengcefagui":
+			$("#changeImage").attr('src',"../image/zhengcefagui.jpg"); $(".ab").css("display","none");
+			$("#changeJigou").attr('src',"../image/zhengcefaguitt.jpg");
 			break;
 		case "gonggaotongzhi":$("#changeImage").attr('src',"../image/gonggaotongzhi.jpg"); $(".ab").css("display","none");$(".nei_she").attr("display","block")
 			break;
 		case "zhengcefagui":$("#changeImage").attr('src',"../image/zhengcefagui.jpg"); $(".ab").css("display","none");
 			break;
-		case "xingzhengxuke":$("#changeImage").attr('src',"../image/xingzhengxuke.jpg"); $(".ab").css("display","none");
+		case "xingzhengxuke":
+			$("#changeImage").attr('src',"../image/xingzhengxuke.jpg"); $(".ab").css("display","none");
+			$("#changeJigou").attr('src',"../image/xingzhengxuket.jpg");
 			break;
-		case "xingzhengchufa":$("#changeImage").attr('src',"../image/xingzhengchufa.jpg"); $(".ab").css("display","none");
+		case "xingzhengchufa":
+			$("#changeImage").attr('src',"../image/xingzhengchufa.jpg"); $(".ab").css("display","none");
+			$("#changeJigou").attr('src',"../image/xingzhengchufat.jpg");
 			break;
 		case "xingzhengjianguancuoshi":$("#changeImage").attr('src',"../image/xingzhengjianguancuoshi.jpg"); $(".ab").css("display","none");
 			break;
@@ -45,11 +51,13 @@ else if(name === 'xingzhengxuke'){
 	$('.active').removeClass('active');
 	$('.xingzhengxuke').addClass('active').addClass('active');
 	$("#changeImage").attr('src',"../image/xingzhengxuke.jpg");
+	$("#changeJigou").attr('src',"../image/xingzhengxuket.jpg");
 }
 else if(name === 'xingzhengchufa'){
 	$('.active').removeClass('active');
 	$('.xingzhengchufa').addClass('active');
 	$("#changeImage").attr('src',"../image/xingzhengchufa.jpg");
+	$("#changeJigou").attr('src',"../image/xingzhengchufat.jpg");
 }
 else if(name === 'xingzhengjianguancuoshi'){
 	$('.active').removeClass('active');
@@ -65,6 +73,7 @@ else if(name === 'zhengcefagui'){
 	$('.active').removeClass('active');
 	$('.zhengcefagui').addClass('active');
 	$("#changeImage").attr('src',"../image/zhengcefagui.jpg");
+	$("#changeJigou").attr('src',"../image/zhengcefaguitt.jpg");
 }
 else if(name === 'renshixinxi'){
 	$('.active').removeClass('active');
